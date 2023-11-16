@@ -1,0 +1,1794 @@
+body {
+  font-family: Lato, sans-serif;
+  color: #1f232e;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.hero-section {
+  position: relative;
+  overflow: hidden;
+  min-height: 580px;
+  padding-bottom: 15%;
+  background-color: #1f232e;
+  color: #fff;
+}
+
+.hero-section.menu {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(transparent)), url('../images/home-foods-menu.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.9), transparent), url('../images/home-foods-menu.jpg');
+  background-position: 0px 0px, 50% 100%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
+.hero-section.contact {
+  padding-top: 140px;
+  padding-bottom: 100px;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container.navbar {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  z-index: 100;
+  display: block;
+  padding-right: 12.5%;
+  padding-left: 12.5%;
+  font-size: 16px;
+}
+
+.container.contact-navbar-copy {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  z-index: 100;
+  display: block;
+  margin-bottom: 100px;
+  font-size: 16px;
+}
+
+.navbar {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+  color: #fff;
+}
+
+.navbar.contact {
+  display: block;
+}
+
+.nav-menu {
+  float: left;
+  clear: both;
+  text-align: center;
+}
+
+.nav-menu.contact {
+  width: auto;
+  margin-top: 21px;
+  margin-bottom: 21px;
+  float: right;
+}
+
+.brand {
+  display: inline;
+  width: 140px;
+  height: 60px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  background-image: url('../images/img-home-foods.png');
+  background-position: 50% 50%;
+  background-size: 125px;
+  background-repeat: no-repeat;
+}
+
+.nav-link {
+  margin-right: 40px;
+  padding-right: 0px;
+  padding-left: 0px;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+  color: #fff;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid #fff;
+  opacity: 0.5;
+}
+
+.nav-link.w--current {
+  border-bottom: 2px solid #e75a24;
+  color: #e75a24;
+}
+
+.nav-link.contact {
+  float: left;
+}
+
+.nav-phone {
+  padding: 20px 8px;
+  float: right;
+  -webkit-transition: color 200ms ease;
+  transition: color 200ms ease;
+  color: #fff;
+  text-align: right;
+  text-decoration: none;
+}
+
+.nav-phone:hover {
+  color: #e75a24;
+}
+
+.nav-phone.contact {
+  display: none;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  float: right;
+  border: 1px solid #fff;
+}
+
+.icon.phone {
+  border-style: none;
+  background-image: url('../images/ico-phone.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nav-phone-h1 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 16px;
+  float: right;
+}
+
+.hero-h1 {
+  margin-top: 0px;
+  font-family: Merriweather, serif;
+  font-size: 4em;
+  line-height: 1em;
+  text-transform: capitalize;
+  text-shadow: 0 15px 10px rgba(0, 0, 0, 0.3);
+}
+
+.section {
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+
+.section.review {
+  position: relative;
+  display: none;
+  overflow: hidden;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: rgba(95, 106, 136, 0.05);
+  text-align: center;
+}
+
+.section.menu {
+  padding-top: 0px;
+  padding-bottom: 60px;
+}
+
+.section.order {
+  position: relative;
+  background-color: #000;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url('../images/H-Restaurant-Interior.jpeg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/H-Restaurant-Interior.jpeg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+  background-attachment: scroll, fixed;
+  color: #fff;
+}
+
+.section.sub-menu {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.section.category {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: rgba(95, 106, 136, 0.05);
+}
+
+._2-column {
+  width: 50%;
+  float: left;
+}
+
+._2-column.left {
+  padding-right: 5%;
+}
+
+._2-column.right {
+  padding-left: 5%;
+}
+
+._2-column.about {
+  position: relative;
+}
+
+._2-column.about-image {
+  padding-right: 10%;
+  background-image: url('../images/home-foods-home-khebab.jpg');
+  background-position: 100% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+._2-column.copy {
+  padding: 70px 10%;
+}
+
+.content-block {
+  margin-bottom: 32px;
+}
+
+.content-block.review {
+  margin-bottom: 16px;
+}
+
+.content-block.menu-mini {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 64px;
+}
+
+.content-block.hero {
+  margin-bottom: 64px;
+}
+
+.content-block._64 {
+  margin-bottom: 64px;
+}
+
+.chef-image {
+  position: relative;
+  width: 50%;
+  float: left;
+}
+
+.about-block {
+  width: 20%;
+  min-height: 280px;
+  padding: 4% 2.5%;
+  float: left;
+  color: #fff;
+}
+
+.about-block.alpha {
+  background-color: #e75a24;
+  background-image: url('../images/img-about-logo.png');
+  background-position: 50% 50%;
+  background-size: 150px;
+  background-repeat: no-repeat;
+}
+
+.about-block.beta {
+  background-color: #1f232e;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.about-block._1 {
+  background-image: url('../images/56dc5fadeca9ebfc21ad15e6_333-min.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-block._2 {
+  background-image: url('../images/2-yk9kpTURBXy9jNDJkNTVkZmI0OTYyOTZiZWE0ZTQxODI3NmM1MGU1OS5qcGeSlQMAOc0EsM0Co5MFzQMUzQG8gaEwAQ.jpeg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-block._3 {
+  background-image: url('../images/57040cc2f795da6141d7a944_photo-1453831362806-3d5577f014a4.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-block._4 {
+  background-image: url('../images/ghanaian-dishes-homefoodsrestaurants.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-block._5 {
+  background-image: url('../images/1_BJDqjd8wcuZyruC0u7DAOg2x.jpeg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-h1 {
+  margin-top: 0px;
+  font-family: Bitter, serif;
+  color: #e75a24;
+  font-size: 30px;
+  line-height: 34px;
+  font-weight: 400;
+}
+
+.about-flex {
+  display: none;
+  min-height: 280px;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.about-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.h1 {
+  margin-top: 0px;
+  font-family: Merriweather, serif;
+  color: #1f232e;
+  font-weight: 400;
+  text-transform: none;
+}
+
+.h1.alpha {
+  color: #e75a24;
+}
+
+.h1.white {
+  color: #fff;
+}
+
+.h2 {
+  font-weight: 600;
+}
+
+.h3 {
+  color: #e75a24;
+}
+
+.h3.white {
+  color: #fff;
+}
+
+.review-block {
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.review-profile {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 8px;
+  border-radius: 50%;
+  background-color: #fff;
+  background-image: url('../images/img-review-avatar.jpeg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: #1f232e;
+  color: #fff;
+  font-size: 13px;
+}
+
+.review-slider {
+  width: 70%;
+  min-height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: transparent;
+}
+
+.review-arrow {
+  font-size: 16px;
+}
+
+.review-mask {
+  height: 50vw;
+}
+
+.review-nav {
+  display: none;
+}
+
+.footer-h1 {
+  margin-right: 8px;
+  padding-right: 16px;
+  float: left;
+  border-right: 1px solid #e75a24;
+  color: hsla(0, 0%, 100%, 0.6);
+  line-height: 1em;
+}
+
+.footer-link {
+  display: inline-block;
+  margin-right: 16px;
+  margin-left: 8px;
+  padding-right: 16px;
+  padding-left: 8px;
+  float: left;
+  border-right: 1px solid #e75a24;
+  color: #fff;
+  line-height: 1em;
+  text-decoration: none;
+}
+
+.footer-icon {
+  width: 16px;
+  height: 16px;
+  margin-left: 24px;
+  float: right;
+}
+
+.footer-icon.twitter {
+  background-image: url('../images/ico-twitter.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer-icon.instagram {
+  background-image: url('../images/ico-instagram.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer-icon.facebook {
+  background-image: url('../images/ico-facebook.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.menu-icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 24px;
+}
+
+.menu-icon.browse {
+  background-image: url('../images/menu-browse.png');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.menu-icon.order {
+  background-image: url('../images/menu-order.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.menu-icon.enjoy {
+  background-image: url('../images/menu-enjoy.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.menu-icon.category {
+  border: 1px solid #000;
+}
+
+.menu-icon.breakfast {
+  background-image: url('../images/The-H-Restaurant-cafe-100.png');
+  background-position: 0% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.menu-icon.lunch {
+  background-image: url('../images/The-H-Restaurant-hamburger-100.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.menu-icon.dinner {
+  background-image: url('../images/The-H-Restaurant-food-100.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.menu-icon.drinks {
+  background-image: url('../images/The-H-Restaurant-milkshake-100.png');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.menu-h1 {
+  margin-bottom: 16px;
+  font-family: Bitter, serif;
+  color: #e75a24;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.menu-mini-block {
+  width: 30%;
+  min-height: 220px;
+  margin-top: -60px;
+  padding: 5%;
+  float: left;
+  border-radius: 2px;
+  background-color: #fff;
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.1);
+}
+
+.menu-mini-block.middle {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.menu-block {
+  position: relative;
+  overflow: hidden;
+  width: 30%;
+  min-height: 220px;
+  margin-bottom: 5%;
+  float: left;
+  border-radius: 2px;
+  background-color: #fff;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.menu-block.middle {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.menu-image {
+  height: 200px;
+  background-image: url('../images/2-yk9kpTURBXy9jNDJkNTVkZmI0OTYyOTZiZWE0ZTQxODI3NmM1MGU1OS5qcGeSlQMAOc0EsM0Co5MFzQMUzQG8gaEwAQ.jpeg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.menu-details {
+  position: relative;
+  min-height: 180px;
+  padding: 10% 15%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border-top: 1px solid rgba(31, 35, 46, 0.1);
+}
+
+.menu-h2 {
+  margin-bottom: 8px;
+  color: #e75a24;
+}
+
+.menu-price-h1 {
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+.menu-flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 48px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.order-block {
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.btn {
+  padding: 12px 48px;
+  border-radius: 2px;
+  background-color: #e75a24;
+  -webkit-transition: background-color 100ms ease;
+  transition: background-color 100ms ease;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #1f232e;
+}
+
+.btn.contact {
+  width: 100%;
+  margin-top: 32px;
+  background-color: #1f232e;
+}
+
+.btn.reserve {
+  margin-top: 16px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(231, 90, 36, 0.41);
+  background-color: #fff;
+  color: #e75a24;
+}
+
+.btn.reserve:hover {
+  background-color: #1f232e;
+  color: #fff;
+}
+
+.btn.menu {
+  margin-top: 16px;
+  margin-right: 16px;
+}
+
+.btn._404 {
+  width: 70%;
+  margin-top: 32px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.order-icon {
+  width: 64px;
+  height: 64px;
+  margin-right: auto;
+  margin-bottom: 16px;
+  margin-left: auto;
+  border-radius: 50%;
+  background-color: #e75a24;
+  background-image: url('../images/ico-phone.png');
+  background-position: 47% 50%;
+  background-size: 32px;
+  background-repeat: no-repeat;
+}
+
+.hero-h2 {
+  position: static;
+  left: 10%;
+  top: 100px;
+  z-index: 2;
+  margin-bottom: 4px;
+  color: #fff;
+  font-size: 2em;
+  line-height: 1em;
+}
+
+.brand-block {
+  display: inline-block;
+  width: 25%;
+}
+
+.brand-block.contact {
+  width: auto;
+  float: left;
+}
+
+.sm-block {
+  float: right;
+}
+
+.form-block {
+  padding: 32px 10%;
+  border-radius: 2px;
+  background-color: #e75a24;
+}
+
+.contact-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+  float: left;
+}
+
+.contact-icon.email {
+  background-image: url('../images/ico-email.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact-icon.phone {
+  background-image: url('../images/ico-phone.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact-icon.location {
+  background-image: url('../images/ico-location.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contact-details {
+  float: left;
+}
+
+.text-field {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #f3f4f7;
+  border-radius: 2px;
+  background-color: transparent;
+}
+
+.text-field.area {
+  min-height: 120px;
+  padding-left: 0px;
+}
+
+.field-label {
+  margin-top: 16px;
+}
+
+.image {
+  width: 100%;
+}
+
+.hero-parallel {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  padding-top: 150px;
+  background-color: #000;
+}
+
+.hero-parallel._2 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), -webkit-gradient(linear, left top, left bottom, from(#000), color-stop(30%, transparent)), url('../images/The-H-Restaurant-Khebab.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), linear-gradient(180deg, #000, transparent 30%), url('../images/The-H-Restaurant-Khebab.jpg');
+  background-position: 0px 0px, 0px 0px, 50% 50%;
+  background-size: auto, auto, cover;
+  background-repeat: repeat, repeat, no-repeat;
+}
+
+.hero-parallel.menu {
+  height: 130%;
+  background-image: url('../images/home-foods-menu.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.hero-parallel._1 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#000), color-stop(30%, transparent)), url('../images/The-H-Restaurant-Cocktails.jpg');
+  background-image: linear-gradient(180deg, #000, transparent 30%), url('../images/The-H-Restaurant-Cocktails.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
+.hero-parallel._3 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), -webkit-gradient(linear, left top, left bottom, from(#000), color-stop(30%, transparent)), url('../images/The-H-Restaurant-Table.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), linear-gradient(180deg, #000, transparent 30%), url('../images/The-H-Restaurant-Table.jpg');
+  background-position: 0px 0px, 0px 0px, 50% 50%;
+  background-size: auto, auto, cover;
+  background-repeat: repeat, repeat, no-repeat;
+}
+
+.price-block {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  padding: 42px 15% 16px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 100%, 0)), color-stop(50%, #fff));
+  background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0), #fff 50%);
+}
+
+.float-image {
+  position: absolute;
+}
+
+.float-image.tomato {
+  left: 0%;
+  top: -3%;
+  right: auto;
+  bottom: auto;
+}
+
+.float-image.avocado {
+  left: auto;
+  top: -10%;
+  right: 0%;
+  bottom: auto;
+  width: 300px;
+}
+
+.hero-slider {
+  min-height: 580px;
+  background-color: transparent;
+  text-align: center;
+}
+
+.hero-slide-nav {
+  margin-bottom: 32px;
+  font-size: 7px;
+}
+
+.hero-slide {
+  font-size: 20px;
+  text-align: center;
+}
+
+.hero-section-alpha {
+  position: relative;
+  background-color: #e75a24;
+  color: #fff;
+}
+
+.hero-section-alpha.menu {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.9)), to(transparent)), url('../images/home-foods-menu.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.9), transparent), url('../images/home-foods-menu.jpg');
+  background-position: 0px 0px, 50% 100%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
+.hero-section-alpha.contact {
+  padding-bottom: 0%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(60%, #000)), url('../images/home-foods-contact.jpg');
+  background-image: linear-gradient(180deg, transparent, #000 60%), url('../images/home-foods-contact.jpg');
+  background-position: 0px 0px, 50% 0%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
+.hero-container {
+  position: relative;
+  z-index: 1;
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.hero-container.navbar {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  z-index: 100;
+  display: block;
+  margin-bottom: 100px;
+}
+
+.title-h1 {
+  display: inline-block;
+  margin-bottom: 32px;
+  border-bottom: 1px solid #e75a24;
+}
+
+.div-block {
+  width: 100%;
+}
+
+.hero-arrow {
+  border-right: 1px solid hsla(0, 0%, 100%, 0.2);
+  border-left: 1px solid hsla(0, 0%, 100%, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.hero-arrow:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.about-icon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 32px;
+  border: 1px solid #e75a24;
+}
+
+.about-icon.phone {
+  border-style: none;
+  background-image: url('../images/ico-phone.png');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-image-1 {
+  width: 100%;
+  height: 500px;
+  background-color: #1f232e;
+  background-image: url('../images/home-foods-contact.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 20px 30px -10px rgba(31, 35, 46, 0.4);
+}
+
+.about-image-1-copy {
+  width: 100%;
+  height: 300px;
+  background-color: #1f232e;
+}
+
+.about-image-1-copy._2 {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  bottom: auto;
+}
+
+._4-column {
+  width: 25%;
+  padding-right: 6%;
+  float: left;
+  text-align: left;
+}
+
+._4-column-h1 {
+  margin-bottom: 16px;
+  font-family: Merriweather, serif;
+  font-size: 22px;
+  line-height: 24px;
+}
+
+._3-column {
+  width: 33.33%;
+  float: left;
+  text-align: left;
+}
+
+._3-column.left {
+  padding-right: 5%;
+}
+
+._3-column.middle {
+  padding-right: 2.5%;
+  padding-left: 2.5%;
+}
+
+._3-column.right {
+  padding-left: 5%;
+}
+
+.menu-item-h1 {
+  width: 60%;
+  margin-right: 5%;
+  float: left;
+  text-transform: capitalize;
+}
+
+.menu-item-h2 {
+  width: 35%;
+  float: right;
+  font-weight: 700;
+  text-align: right;
+}
+
+.menu-content-block {
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.menu-content-block.title {
+  color: #e75a24;
+}
+
+.menu-item-h3 {
+  margin-right: 32px;
+  font-family: Bitter, serif;
+  color: #e75a24;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.div-block-2 {
+  width: 25%;
+  float: left;
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/example-bg.png');
+  background-position: 0px 0px;
+  background-size: 125px;
+}
+
+.pillar {
+  width: 25%;
+  float: left;
+}
+
+.pillar._2 {
+  background-image: url('../images/The-H-Restuarant-02.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pillar._4 {
+  background-image: url('../images/The-H-Restaurant.jpeg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-block-copy {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 50%;
+  padding: 4% 15%;
+  float: left;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  color: #fff;
+}
+
+.about-block-copy.alpha {
+  background-color: #e75a24;
+  background-image: url('../images/img-about-logo.png');
+  background-position: 50% 50%;
+  background-size: 150px;
+  background-repeat: no-repeat;
+}
+
+.about-block-copy.beta {
+  background-color: #1f232e;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.about-block-copy._1 {
+  background-image: url('../images/The-H-Restuarant-05.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-block-copy._2 {
+  background-image: url('../images/2-yk9kpTURBXy9jNDJkNTVkZmI0OTYyOTZiZWE0ZTQxODI3NmM1MGU1OS5qcGeSlQMAOc0EsM0Co5MFzQMUzQG8gaEwAQ.jpeg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-block-copy._3 {
+  background-image: url('../images/57040cc2f795da6141d7a944_photo-1453831362806-3d5577f014a4.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-block-copy._4 {
+  background-image: url('../images/ghanaian-dishes-homefoodsrestaurants.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-block-copy._5 {
+  background-image: url('../images/1_BJDqjd8wcuZyruC0u7DAOg2x.jpeg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-block-copy._2 {
+  background-image: url('../images/The-H-Restuarant-06.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section-2 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 800px;
+}
+
+.review-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 49%;
+  margin: 1px;
+  float: left;
+  border-radius: 2px;
+  background-color: #fff;
+  text-align: left;
+}
+
+.div-block-3 {
+  width: 35%;
+  padding: 32px 5% 32px 8%;
+  float: left;
+}
+
+.div-block-4 {
+  width: 65%;
+  padding: 32px 5%;
+  float: left;
+}
+
+.tab-link {
+  margin-right: 2%;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  border-top: 2px solid #f3f4f7;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  background-color: #f3f4f7;
+  font-family: Merriweather, serif;
+  color: #1f232e;
+  text-align: center;
+}
+
+.tab-link.w--current {
+  border-top: 2px solid #e75a24;
+  background-color: #f3f4f7;
+  color: #e75a24;
+}
+
+.tab-link.left {
+  margin-right: 5%;
+}
+
+.tab-link.right {
+  margin-left: 5%;
+}
+
+.tab-pane {
+  padding-top: 5%;
+  padding-right: 2.5%;
+  padding-left: 2.5%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f3f4f7), color-stop(20%, hsla(0, 0%, 100%, 0)));
+  background-image: linear-gradient(180deg, #f3f4f7, hsla(0, 0%, 100%, 0) 20%);
+}
+
+.tabs-menu {
+  border-bottom-width: 1px;
+  border-bottom-color: #f3f4f7;
+}
+
+.menu-image-block {
+  width: 100%;
+  height: 180px;
+  margin-bottom: 32px;
+  border-radius: 1px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.12);
+}
+
+.menu-image-block.main-menu {
+  background-image: url('../images/The-H-Restuarant-04.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.the-h-logo {
+  width: 320px;
+  margin-top: -32px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.success-message {
+  background-color: transparent;
+}
+
+.error-message {
+  border-radius: 2px;
+  background-color: transparent;
+  text-align: center;
+}
+
+.utility-page-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #1f232e;
+  color: #fff;
+}
+
+.utility-page-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+.powered-by {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 2px 8px;
+  float: right;
+  border-style: solid;
+  border-width: 1px;
+  border-color: hsla(0, 0%, 100%, 0.2);
+  border-radius: 2px;
+  background-color: transparent;
+  -webkit-transition: background-color 200ms ease;
+  transition: background-color 200ms ease;
+  color: hsla(0, 0%, 100%, 0.3);
+  font-size: 11px;
+  text-decoration: none;
+}
+
+.powered-by:hover {
+  background-color: #fff;
+  color: #1f232e;
+}
+
+html.w-mod-js *[data-ix="hero-container"] {
+  opacity: 0;
+  -webkit-transform: translate(200px, 0px);
+  -ms-transform: translate(200px, 0px);
+  transform: translate(200px, 0px);
+}
+
+@media screen and (max-width: 991px) {
+  .hero-section {
+    min-height: auto;
+  }
+  .hero-section.menu {
+    min-height: 480px;
+  }
+  .container {
+    width: 90%;
+  }
+  .container.navbar {
+    width: 100%;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  .container.contact-navbar-copy {
+    width: 100%;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  .nav-menu {
+    width: 40%;
+  }
+  .hero-h1 {
+    font-size: 3em;
+  }
+  .hero-h1.contact {
+    font-size: 40px;
+    line-height: 44px;
+  }
+  .section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  ._2-column.left {
+    padding-right: 0%;
+  }
+  ._2-column.right {
+    padding-left: 5%;
+  }
+  ._2-column.about {
+    padding-right: 0%;
+  }
+  ._2-column.about-image {
+    padding-right: 0%;
+  }
+  ._2-column.copy {
+    padding-right: 0%;
+  }
+  .content-block.menu-mini {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .about-block {
+    width: 50%;
+    padding: 10%;
+  }
+  .about-h1 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .about-flex {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+  }
+  .form-block {
+    margin-right: -14%;
+  }
+  .hero-section-alpha {
+    min-height: auto;
+  }
+  .hero-container {
+    width: 90%;
+  }
+  .pillar {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 25%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .about-block-copy {
+    padding: 10%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .hero-section.menu {
+    min-height: 460px;
+  }
+  .container.navbar {
+    position: absolute;
+    padding-right: 0%;
+    padding-left: 0%;
+  }
+  .container.contact-navbar-copy {
+    position: absolute;
+    padding-right: 0%;
+    padding-left: 0%;
+  }
+  .navbar {
+    display: block;
+    padding-right: 5%;
+    padding-left: 5%;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+  .nav-menu {
+    left: 0%;
+    top: 60px;
+    right: 0%;
+    bottom: auto;
+    width: 100%;
+    padding: 2.5% 5%;
+    background-color: rgba(0, 0, 0, 0.86);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(rgba(0, 0, 0, 0.24)));
+    background-image: linear-gradient(180deg, #000, rgba(0, 0, 0, 0.24));
+  }
+  .nav-link {
+    margin-bottom: 2.5%;
+  }
+  .nav-phone {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: left;
+  }
+  .section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .section.menu {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  ._2-column {
+    width: 100%;
+  }
+  ._2-column.left {
+    padding-right: 0%;
+  }
+  ._2-column.right {
+    margin-top: 10%;
+    padding-left: 0%;
+  }
+  ._2-column.about {
+    padding-right: 0%;
+  }
+  ._2-column.mama {
+    margin-top: 10%;
+    padding-left: 0%;
+  }
+  ._2-column.about-image {
+    padding-right: 0%;
+  }
+  ._2-column.copy {
+    padding-right: 0%;
+  }
+  .content-block.menu-mini {
+    display: block;
+  }
+  .chef-image {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+  }
+  .about-block {
+    min-height: 260px;
+  }
+  .h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .footer {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  .footer-link {
+    margin-bottom: 16px;
+  }
+  .footer-icon {
+    margin-right: 32px;
+    margin-left: 0px;
+  }
+  .menu-mini-block {
+    width: 100%;
+    min-height: auto;
+    margin-top: 16px;
+  }
+  .menu-mini-block.middle {
+    margin-right: 0%;
+    margin-left: 0%;
+  }
+  .menu-block {
+    width: 45%;
+    margin-right: auto;
+  }
+  .menu-block.middle {
+    margin-right: auto;
+    margin-left: 0%;
+  }
+  .menu-flex {
+    margin-right: -5%;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  .hero-h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .brand-block {
+    width: auto;
+  }
+  .sm-block {
+    margin-top: 32px;
+    float: left;
+  }
+  .form-block {
+    margin-right: 0%;
+  }
+  .text-field {
+    font-size: 16px;
+  }
+  .hero-parallel._2 {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #000), to(transparent)), url('../images/The-H-Restaurant-Khebab.jpg');
+    background-image: linear-gradient(180deg, #000 10%, transparent), url('../images/The-H-Restaurant-Khebab.jpg');
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+  }
+  .hero-parallel._3 {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), -webkit-gradient(linear, left top, left bottom, color-stop(10%, #000), to(transparent)), url('../images/The-H-Restaurant-Table.jpg');
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), linear-gradient(180deg, #000 10%, transparent), url('../images/The-H-Restaurant-Table.jpg');
+    background-position: 0px 0px, 0px 0px, 50% 50%;
+    background-size: auto, auto, cover;
+    background-repeat: repeat, repeat, no-repeat;
+  }
+  .hero-arrow {
+    display: none;
+  }
+  .menu-button {
+    float: left;
+    background-color: transparent;
+  }
+  .menu-button.w--open {
+    background-color: #e75a24;
+  }
+  ._4-column {
+    width: 50%;
+    padding-bottom: 6%;
+  }
+  ._3-column.left {
+    width: 50%;
+  }
+  ._3-column.middle {
+    width: 50%;
+  }
+  ._3-column.right {
+    width: 100%;
+    padding-top: 5%;
+    padding-left: 0%;
+  }
+  .pillar {
+    width: 50%;
+  }
+  .about-block-copy {
+    min-height: 260px;
+  }
+  .section-2 {
+    height: auto;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .review-section {
+    width: 100%;
+  }
+  .powered-by {
+    margin-bottom: 16px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .hero-section {
+    padding-bottom: 25%;
+  }
+  .hero-section.contact {
+    padding-top: 50%;
+  }
+  .container.navbar {
+    margin-bottom: 0px;
+  }
+  .container.contact-navbar-copy {
+    margin-bottom: 0px;
+  }
+  .hero-h1 {
+    font-size: 2em;
+  }
+  .section.order {
+    padding-bottom: 60px;
+  }
+  ._2-column.about {
+    padding-top: 0%;
+  }
+  .chef-image {
+    width: 100%;
+  }
+  .about-block {
+    width: 100%;
+    padding-top: 20%;
+  }
+  .review-block {
+    width: 100%;
+  }
+  .review-slider {
+    width: 100%;
+  }
+  .review-arrow {
+    display: none;
+  }
+  .footer-h1 {
+    width: 100%;
+    margin-bottom: 16px;
+    border-right-style: none;
+  }
+  .footer-link {
+    display: block;
+    width: 100%;
+    margin-top: 16px;
+    margin-left: 0px;
+    padding-left: 0px;
+    float: left;
+    border-right-style: none;
+  }
+  .menu-image {
+    height: 80px;
+  }
+  .menu-details {
+    padding-right: 8%;
+    padding-left: 8%;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .menu-price-h1 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .order-block {
+    width: 90%;
+  }
+  .btn {
+    width: 100%;
+  }
+  .hero-parallel {
+    padding-top: 120px;
+  }
+  .hero-parallel.menu {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(transparent)), url('../images/home-foods-menu.jpg');
+    background-image: linear-gradient(180deg, #000, transparent), url('../images/home-foods-menu.jpg');
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+  }
+  .hero-slider {
+    min-height: 440px;
+  }
+  .hero-container.navbar {
+    margin-bottom: 25%;
+  }
+  .about-image-1 {
+    height: 250px;
+  }
+  ._4-column {
+    width: 100%;
+    padding-bottom: 10%;
+  }
+  ._3-column {
+    width: 100%;
+  }
+  ._3-column.left {
+    width: 100%;
+    padding-right: 0%;
+    padding-bottom: 5%;
+  }
+  ._3-column.middle {
+    width: 100%;
+    padding-right: 0%;
+    padding-left: 0%;
+  }
+  .pillar {
+    width: 100%;
+  }
+  .pillar._2 {
+    height: 400px;
+  }
+  .about-block-copy {
+    width: 100%;
+    padding-top: 20%;
+  }
+  .review-section {
+    display: block;
+  }
+  .div-block-3 {
+    width: 100%;
+  }
+  .div-block-4 {
+    width: 100%;
+  }
+  .tab-link {
+    width: 100%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 1px solid #e75a24;
+    background-color: #fff;
+    color: #e75a24;
+    font-size: 14px;
+  }
+  .tab-link.w--current {
+    border-top-style: none;
+    background-color: #e75a24;
+    color: #fff;
+  }
+  .tab-link.right {
+    margin-left: 0%;
+  }
+  .tab-pane {
+    padding-top: 10%;
+  }
+  .tabs-menu {
+    border-bottom-style: none;
+  }
+  .the-h-logo {
+    width: 80%;
+    margin-bottom: 32px;
+  }
+  .powered-by {
+    float: left;
+  }
+}
+
